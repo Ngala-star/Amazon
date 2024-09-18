@@ -1,0 +1,106 @@
+@import "https://unpkg.com/open-props";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: var(--gray-9);
+  position: sticky;
+  top: 0;
+}
+.nav-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--gray-1);
+  padding-block: var(--size-1);
+}
+.nav-logo{
+  display: flex;
+  align-items: center; 
+}
+.searchbar{
+  cursor: pointer;
+  background-color: var(--yellow-3);
+}
+.searchbar:hover{
+  background-color: var(--yellow-2);
+}
+#nav-links{
+  display: flex;
+  align-items: center;
+}
+#nav-links li{
+  list-style: none;
+  padding-inline: 20px;
+  cursor: pointer;
+}
+
+#nav-links li:first-child{
+ position: relative;
+}
+#nav-links li:first-child::before{
+  content: "Returns";
+  position: absolute;
+  top: -14px;
+  font-size: var(--font-size-0);
+  
+}
+#nav-links li:last-child{
+ position: relative;
+ font-size: var(font-size-4);
+}
+#nav-links li:last-child::after{
+  content: "Cart";
+  position: absolute;
+  bottom: 0;
+  font-size: var(--font-size-0); 
+}
+#nav-links li span{
+  position: absolute;
+  top: -17px;
+  left: 26px;
+}
+#nav-links li a{
+  text-decoration: none;
+  font-size: var(--font-size-2);
+}
+
+.products{
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
+  width: 98%;
+  margin-inline: auto;
+
+}
+
+
+.products{
+  width: 98%;
+ /*  height: 350px; */
+}
+.item .product-image{
+  height: 200px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-image img{
+max-width: 100%;
+max-height: 100%;
+}
+.item .rating img{
+  width: 80px;
+}
+.item{
+  display: flex;
+  flex-flow: column;
+}
+.item div:last-child{
+  margin-top: auto;
+  
+}
