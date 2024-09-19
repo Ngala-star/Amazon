@@ -160,4 +160,54 @@ export const products = [
     },
     priceCents: 2550
   },
+  {
+    id: 16,
+    image: '../images/products/variations/men-navigator-sunglasses-silver.jpg',
+    name: 'men-navigator-sunglasses-silver',
+    rating: {
+       star: 4,
+       count: 150
+    },
+    priceCents: 1460
+  },
+  {
+    id: 17,
+    image: '../images/products/variations/luxury-tower-set-4-piece.jpg',
+    name: 'luxury-tower-set-4-piece',
+    rating: {
+       star: 3.5,
+       count: 240
+    },
+    priceCents: 2580
+  },
+  {
+    id: 18,
+    image: '../images/products/intermediate-composite-basketball.jpg',
+    name: 'intermediate-composite-basketball',
+    rating: {
+       star: 2.5,
+       count: 300
+    },
+    priceCents: 3270
+  },
+  {
+    id: 19,
+    image: '../images/products/men-slim-fit-summer-shorts-gray.jpg',
+    name: 'men-slim-fit-summer-shorts-gray',
+    rating: {
+       star: 4,
+       count: 300
+    },
+    priceCents: 1840
+  },
+  {
+    id: 20,
+    image: '../images/products/round-airtight-food-storage-containers.jpg',
+    name: 'round-airtight-food-storage-containers',
+    rating: {
+       star: 4,
+       count: 300
+    },
+    priceCents: 2130
+  },
 ]
